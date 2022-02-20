@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
     <link rel="stylesheet" href="./style/style.css">
-    <title>Abhishek Kumar</title>
+    <title>Abhishek - Resume</title>
 </head>
 
 <body>
@@ -25,7 +25,8 @@
     <div class=" container neo p-5 my-md-5 ">
         <div>
             <nav class="navbar navbar-expand-lg navbar-light ">
-                <a class="navbar-brand" href="./index.html"><img src="./images/A1.png" width="45px" alt="logo" style="opacity: 0.8;"></a>
+                <a class="navbar-brand" href="./index.html"><img src="./images/A1.png" width="45px" alt="logo"
+                        style="opacity: 0.8;"></a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                     aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,7 +81,8 @@
 
                         <br>
                         <div class="row mt-3">
-                            <div class="col-md-5 ml-auto"> <a class="neo px-4 py-2 mr-2 mt-3 btn" href="/">Resume</a>
+                            <div class="col-md-5 ml-auto"> <a class="neo px-4 py-2 mr-2 mt-3 btn"
+                                    href="./resume/Abhishek's Resume.pdf" target="_blank">Resume</a>
                             </div>
                             <div class="col-md-4 "> <a class="neo px-4 py-2 mx-2 btn mt-3"
                                     href="#portfolio">Portfolio</a>
@@ -93,7 +95,8 @@
                     <div class="col-md-5  mx-auto   order-1 order-md-2 ">
                         <div class="p-3 rounded  mx-auto" style="border: 1px solid #eeeeee; background-color: #e1e1e1;">
                             <img class="mx-auto img-fluid" src="./images/profile3.png"
-                                style="transform: scale(1.3); border-radius: 5px; opacity: 0.9;" width="250px" height="160px" alt="profile-img">
+                                style="transform: scale(1.3); border-radius: 5px; opacity: 0.9;" width="250px"
+                                height="160px" alt="profile-img">
                         </div>
 
                     </div>
@@ -165,7 +168,7 @@
                         <span class="" style="font-size: 1em; margin-top: 5px ;"><b>Programming</b> </span>
                         <hr class="m-2 p-0" style="background-color: #ffffff ;">
                         <span>
-                            <p class="text-justify">I have slightly good knowledge of Algorithms and Data Structure </p>
+                            <p class="text-justify">I have good knowledge of Algorithms and Data Structure </p>
                         </span>
 
                     </div>
@@ -176,7 +179,7 @@
                         <hr class="m-2 p-0" style="background-color: #ffffff ;">
                         <span>
                             <p class="text-justify"> I have knowledge in doing Data and Quantitative Analysis, Decision
-                                Analytics, Predictive
+                                Analytics, Regression
                                 Modeling.
                             </p>
                         </span>
@@ -200,7 +203,8 @@
                 <div class="row">
                     <div class="col-md-12 mb-4">
                         <div class="row">
-                            <div id="featured-btn" class="col-xs-2 neo mx-auto btn my-3 active1"> Featured </div>
+                            <div id="featured-btn" class="col-xs-2 neo mx-auto btn my-3 active1"
+                                style="color: #007bff;"> Featured </div>
                             <div id="app-btn" class="col-xs-2 neo mx-auto btn my-3 ">web App </div>
                             <div id="template-btn" class="col-xs-2 neo mx-auto btn my-3 ">Programming </div>
                             <div id="ml-btn" class="col-xs-2 neo mx-auto btn my-3 ">Machine Learning</div>
@@ -425,10 +429,17 @@
                 $("#template-btn").removeClass("active1")
                 $("#ml-btn").removeClass("active1")
 
+                $("#featured-btn").addClass("heading-color")
+                $("#app-btn").removeClass("heading-color")
+                $("#template-btn").removeClass("heading-color")
+                $("#ml-btn").removeClass("heading-color")
+
                 $("#featured").css("display", "block")
                 $("#app").css("display", "none")
                 $("#template").css("display", "none")
                 $("#ml").css("display", "none")
+
+
 
             })
 
@@ -439,6 +450,11 @@
                 $("#app-btn").addClass("active1")
                 $("#template-btn").removeClass("active1")
                 $("#ml-btn").removeClass("active1")
+
+                $("#featured-btn").removeClass("heading-color")
+                $("#app-btn").addClass("heading-color")
+                $("#template-btn").removeClass("heading-color")
+                $("#ml-btn").removeClass("heading-color")
 
 
                 $("#featured").css("display", "none")
@@ -455,6 +471,11 @@
                 $("#template-btn").addClass("active1")
                 $("#ml-btn").removeClass("active1")
 
+                $("#featured-btn").removeClass("heading-color")
+                $("#app-btn").removeClass("heading-color")
+                $("#template-btn").addClass("heading-color")
+                $("#ml-btn").removeClass("heading-color")
+
                 $("#featured").css("display", "none")
                 $("#app").css("display", "none")
                 $("#template").css("display", "block")
@@ -469,6 +490,11 @@
                 $("#app-btn").removeClass("active1")
                 $("#template-btn").removeClass("active1")
                 $("#ml-btn").addClass("active1")
+
+                $("#featured-btn").removeClass("heading-color")
+                $("#app-btn").removeClass("heading-color")
+                $("#template-btn").removeClass("heading-color")
+                $("#ml-btn").addClass("heading-color")
 
 
                 $("#featured").css("display", "none")

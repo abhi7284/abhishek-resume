@@ -10,9 +10,15 @@
 }
 
 
+body {
+  background-color: #e0e0e0;
+
+}
+
+
 .neo {
   border-radius: 10px;
-  background: #e0e0e0;
+  background: #e1e1e1;
   box-shadow: 5px 5px 10px #cacaca,
     -5px -5px 10px #f6f6f6;
   border: px solid #EEEEEE;
@@ -25,16 +31,13 @@
     inset -5px -5px 10px #f6f6f6;
 }
 
-body {
-  background-color: #e0e0e0;
-
-}
 
 .heading-text {
   font-size: 1.4rem;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 2px;
+
 }
 
 .name {
@@ -62,9 +65,8 @@ body {
   font-size: 14px;
 }
 
+.heading-color {
+  color: #007bff
+}
+
 /* ----------------------------- */
-
-
-
-
-
